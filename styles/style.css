@@ -1,0 +1,72 @@
+html body{
+	padding: 0;
+	margin: 5px;
+	background-color: maroon;
+	color: white;
+	font-family: arial, serif;
+}
+header {
+	 background: url("../images/gameday.jpg") no-repeat center center;
+	 background-size: cover;
+	 height: 300px;
+}
+nav {
+	padding: 5px;
+}
+
+nav li{
+	display: inline;
+	font-family: arial;
+	margin-right: 5px;
+	text-align: left;
+	}
+nav a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+
+}
+nav a:hover {
+	font-size: 14px;
+	border-radius: 15px;
+
+}
+a:visited {
+	background-color: grey;
+	font-weight: bold;
+}
+.interest {
+	color: maroon;
+	background-color: white;
+	font-family: times, serif;
+	padding: 5px;
+	font-size: 20px
+}
+@media screen and (min-width: 701px) {
+  #bio {
+  	width: 70%; 
+  }
+ .interest {
+ 	width: 40%;
+ }
+}
+@media screen and (max-width: 700px) {
+	#bio {
+		width: 90%;
+	}
+	#profile-picture {
+		width: 80%;
+	}
+	.interest {
+		width: 80%;
+	}
+}
+footer {
+	background: url("../images/march-in-humpit.jpeg") no-repeat center center;
+	background-size: cover;
+	height: 200px;
+}
+footer h3{
+	text-align: center;
+}
