@@ -1,14 +1,20 @@
 html body{
 	padding: 0;
 	margin: 5px;
-	background-color: maroon;
-	color: white;
+	background: url(../images/StockSnap_MRF1628S9A_mini.jpg) bottom center no-repeat;
+	color:  #0099cc;
+	font-size: 16pt;
 	font-family: arial, serif;
 }
 header {
-	 background: url("../images/gameday.jpg") no-repeat center center;
-	 background-size: cover;
-	 height: 300px;
+	background-image:
+    linear-gradient(#0099cc, #006699);
+	
+}
+#profile-picture {
+	border-radius: 20px;
+	border: 5px solid #0099cc;
+	border-spacing: 10px 50px;
 }
 nav {
 	padding: 5px;
@@ -63,9 +69,7 @@ a:visited {
 	}
 }
 footer {
-	background: url("../images/march-in-humpit.jpeg") no-repeat center center;
-	background-size: cover;
-	height: 200px;
+	
 }
 footer h3{
 	text-align: center;
