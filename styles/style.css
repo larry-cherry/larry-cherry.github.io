@@ -1,7 +1,8 @@
 html body{
 	padding: 0;
 	margin: 5px;
-	background: url(../images/StockSnap_MRF1628S9A_mini.jpg) bottom center no-repeat;
+	background: url(../images/background_mini.jpg) bottom right no-repeat;
+	background-size: 100% 100%;
 	color:  #0099cc;
 	font-size: 16pt;
 	font-family: arial, serif;
@@ -69,8 +70,19 @@ a:visited {
 	}
 }
 footer {
-	
+	background-image:
+    linear-gradient(#0099cc, #006699);
+    color: white;
+    position: center;
+    text-align: center;
 }
 footer h3{
 	text-align: center;
+}
+footer p{
+	display: inline;
+}
+footer p a{
+	color: white;
+	text-decoration: none;
 }
