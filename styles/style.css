@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 5px;
 	background: url(../images/background_mini.jpg) bottom right no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	color:  #0099cc;
 	font-size: 16pt;
 	font-family: arial, serif;
@@ -10,9 +10,11 @@
 header {
 	background-image:
     linear-gradient(#0099cc, #006699);
-	
+	border: 1px solid white;
+	border-radius: 5px;
 }
 #profile-picture {
+	margin-left: 10px;
 	border-radius: 20px;
 	border: 5px solid #0099cc;
 	border-spacing: 10px 50px;
@@ -57,6 +59,7 @@ a:visited {
 @media screen and (min-width: 701px) {
   #bio {
   	width: 70%; 
+  	margin-left: 10px;
   }
  .interest {
  	width: 40%;
@@ -71,6 +74,10 @@ a:visited {
 	}
 	.interest {
 		width: 80%;
+	}
+	.main {
+		background-size: cover;
+
 	}
 }
 footer {
@@ -94,12 +101,14 @@ footer p a{
 .footer_links{
 	border: 1px solid white;
 	margin: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-radius: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
 	background-color: #009999;
 
 }
 .footer_links:hover{
-	border-radius: 8px;
+	border-radius: 12px;
 }
