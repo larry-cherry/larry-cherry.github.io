@@ -1,4 +1,4 @@
-html body{
+.main{
 	padding: 0;
 	margin: 5px;
 	background: url(../images/background_mini.jpg) bottom right no-repeat;
@@ -29,18 +29,22 @@ nav li{
 	}
 nav a {
 	text-decoration: none;
-	color: black;
-	background-color: white;
-	border-radius: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: #009999;
+	border-radius: 5px;
 
 }
 nav a:hover {
-	font-size: 14px;
-	border-radius: 15px;
+	font-size: 15px;
+	border-radius: 4px;
 
 }
 a:visited {
-	background-color: grey;
+	background-color: #006699;
 	font-weight: bold;
 }
 .interest {
@@ -75,6 +79,7 @@ footer {
     color: white;
     position: center;
     text-align: center;
+    bor
 }
 footer h3{
 	text-align: center;
@@ -85,4 +90,16 @@ footer p{
 footer p a{
 	color: white;
 	text-decoration: none;
+}
+.footer_links{
+	border: 1px solid white;
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 2px;
+	background-color: #009999;
+
+}
+.footer_links:hover{
+	border-radius: 8px;
 }
