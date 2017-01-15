@@ -36,13 +36,15 @@ nav a {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: white;
-	background-color: #009999;
 	border-radius: 5px;
+	border: 1px solid white;
+	background-color: #006699;
 
 }
 nav a:hover {
-	font-size: 15px;
 	border-radius: 4px;
+	background-color: #009999;
+	border-radius: 8px;
 
 }
 a:visited {
@@ -86,13 +88,13 @@ footer {
     color: white;
     position: center;
     text-align: center;
-    bor
 }
 footer h3{
 	text-align: center;
 }
 footer p{
 	display: inline;
+	padding: 8px;
 }
 footer p a{
 	color: white;
@@ -106,9 +108,10 @@ footer p a{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 8px;
-	background-color: #009999;
+	background-color: #006699;
 
 }
 .footer_links:hover{
 	border-radius: 12px;
+	background-color: #009999;
 }
